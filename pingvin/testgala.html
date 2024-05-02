@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="source/styles/mycss.css">
+  <link rel="stylesheet" href="source/styles/bgvideo.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="source/files/Logo.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="source/files/Logo.jpg">
+  <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+  <title>PingvinProgram</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="source/files/Logo.jpg" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Главная страница</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Разделы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="test.html">Тест1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="testgala.html">Тест2</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/watch?v=8nOXKHp2x7s">
+                <img style="width: 35px; margin-inline: 1em;" src="source/files/yt.png" alt="...">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/roscosmos_gk">
+                <img style="width: 25px; margin-inline: 1em;" src="source/files/tg.png" alt="...">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    
+    <div class="col-lg-12 col-md-12 text-center mt-4">
+        <form action="testGala.php" method="post">
+        <div class="content">
+        <form name="quiz2" class="quiz2" id="quiz2">
+            <h3>Введите ваше ФИО</h3>
+            <input type="text" placeholder="ФИО" name="login" class="text-button" >
+            <h3>1. Какая галактика является самой близкой к Млечному Пути?</h3>
+            <h3>1.Андромеда</h3>
+            <h3>2.Треугольник</h3>
+            <h3>3.Веретено</h3>
+            <h3>4.Сомбреро</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros1" class="text-button">
+            <h3>2. Как называется галактика, в которой мы живем?</h3>
+            <h3>1.Андромеда</h3>
+            <h3>2.Веретено</h3>
+            <h3>3.Млечный Путь</h3>
+            <h3>4.Лебедь</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros2"class="text-button">
+            <h3>3. Какой тип галактики представляет собой Млечный Путь?</h3>
+            <h3>1.Эллиптическая</h3>
+            <h3>2.Спиральная</h3>
+            <h3>3.Неправильная</h3>
+            <h3>4.Линзообразная</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros3"class="text-button">
+            <h3>4. Как называется яркая галактика в созвездии Сомбреро?</h3>
+            <h3>1.М31</h3>
+            <h3>2.М104</h3>
+            <h3>3.М87</h3>
+            <h3>4.М51</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros4"class="text-button">
+            <h3>5. Какая галактика известна своими активными звездообразовательными областями?</h3>
+            <h3>1.Туманность Ориона</h3>
+            <h3>2.Галактика Водоворот</h3>
+            <h3>3.Галактика Антенны</h3>
+            <h3>4.Галактика Цыганка</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros5"class="text-button">
+            <h3>6. Какой тип галактик обычно самый большой по размеру?</h3>
+            <h3>1.Спиральные</h3>
+            <h3>2.Эллептические</h3>
+            <h3>3.Неправельные</h3>
+            <h3>4.Карликовые</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros6"class="text-button">
+            <h3>7. Какая галактика известна своим сверхмассивным черным отверстием в центре?</h3>
+            <h3>1.М31</h3>
+            <h3>2.М87</h3>
+            <h3>3.М104</h3>
+            <h3>4.М51</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros7"class="text-button">
+            <h3>8. Как называется галактика, которая сталкивается с Млечным Путем</h3>
+            <h3>1.Галактика Андромеды</h3>
+            <h3>2.Галактика Треугольник</h3>
+            <h3>3.Галактика Водоворот</h3>
+            <h3>4.Галактика Сомбреро</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros8"class="text-button">
+            <h3>9. Какая галактика известна своими "ручками"?</h3>
+            <h3>1.Галактика Водоворот</h3>
+            <h3>2.Галактика Сомбреро</h3>
+            <h3>3.Галактика Андромеды</h3>
+            <h3>4.Галактика Цыганка </h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros9"class="text-button">
+            <h3>10. Как называется галктика, которая имеет форму диска с выпуклым утолщением в центре?</h3>
+            <h3>1.Эллиптическая</h3>
+            <h3>2.Спиральная</h3>
+            <h3>3.Линзообразная</h3>
+            <h3>4.Неправильная </h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros10"class="text-button">
+            <h3></h3>
+            <input value="Завершить тест2" type="submit" id="submit"class="text-button">
+            
+        </form>
+          </form>
+        
+        </div>
+      </div>
+  </section>
+
+  <footer class="mt-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>PingvinProgram</p>
+        </div>
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>Галактика<br>Звёзды<br>Любовь</p>
+        </div>
+        <div class="col-lg-4 col-md-12 media-links">
+          <img style="width: 40px; margin-inline: 1em;" src="source/files/yt.png" alt="...">
+          <img style="width: 40px; margin-inline: 1em;" src="source/files/tg.png" alt="...">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

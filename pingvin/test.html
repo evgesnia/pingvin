@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="source/styles/mycss.css">
+  <link rel="stylesheet" href="source/styles/bgvideo.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="source/files/Logo.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="source/files/Logo.jpg">
+  <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+  <title>PingvinProgram</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="source/files/Logo.jpg" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Главная страница</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Разделы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="test.html">Тест1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="testgala.html">Тест2</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/watch?v=8nOXKHp2x7s">
+                <img style="width: 35px; margin-inline: 1em;" src="source/files/yt.png" alt="...">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/roscosmos_gk">
+                <img style="width: 25px; margin-inline: 1em;" src="source/files/tg.png" alt="...">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    
+    <div class="col-lg-12 col-md-12 text-center mt-4">
+        <form action="testPlanets.php" method="post">
+        <div class="content">
+        <form name="quiz1" class="quiz1" id="quiz1" action="javascript:check();">
+            <h3>Введите ваше ФИО</h3>
+            <input type="text" placeholder="ФИО" name="login" class="text-button" >
+            <h3>1. Какая планета Солнечной системы самая большая?</h3>
+            <h3>1.Марс</h3>
+            <h3>2.Земля</h3>
+            <h3>3.Юпитер</h3>
+            <h3>4.Венера</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros1" class="text-button">
+            <h3>2. Какая планета известна своими кольцами?</h3>
+            <h3>1.Сатурн</h3>
+            <h3>2.Меркурий</h3>
+            <h3>3.Уран</h3>
+            <h3>4.Нептун</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros2"class="text-button">
+            <h3>3. Какая планета ближе всего к Солнцу?</h3>
+            <h3>1.Земля</h3>
+            <h3>2.Меркурий</h3>
+            <h3>3.Венера</h3>
+            <h3>4.Марс</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros3"class="text-button">
+            <h3>4. Какая планета названа в честь бога морей?</h3>
+            <h3>1.Марс</h3>
+            <h3>2.Сатурн</h3>
+            <h3>3.Уран</h3>
+            <h3>4.Нептун</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros4"class="text-button">
+            <h3>5. Какой спутник является самым большим в Солнечной системе?</h3>
+            <h3>1.Ганимед</h3>
+            <h3>2.Титан</h3>
+            <h3>3.Луна</h3>
+            <h3>4.Ио</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros5"class="text-button">
+            <h3>6. Какая планета имеет самый короткий день?</h3>
+            <h3>1.Юпитер</h3>
+            <h3>2.Сатурн</h3>
+            <h3>3.Уран</h3>
+            <h3>4.Земля</h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros6"class="text-button">
+            <h3>7. Какая планета известна своими экстремальными ветрами и синим цветом?</h3>
+            <h3>1.Марс</h3>
+            <h3>2.Юпитер</h3>
+            <h3>3.Нептун</h3>
+            <h3>4.Венера </h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros7"class="text-button">
+            <h3>8. Какая планета известна своей красной пятнистой бурей?</h3>
+            <h3>1.Марс</h3>
+            <h3>2.Юпитер</h3>
+            <h3>3.Сатурн</h3>
+            <h3>4.Уран </h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros8"class="text-button">
+            <h3>9. Какая планета имеет самую высокую гору в Солнечной системе?</h3>
+            <h3>1.Земля</h3>
+            <h3>2.Венера</h3>
+            <h3>3.Марс</h3>
+            <h3>4.Меркурий </h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros9"class="text-button">
+            <h3>10. Какая планета известна своими ретроградным вращением?</h3>
+            <h3>1.Венера</h3>
+            <h3>2.Марс</h3>
+            <h3>3.Юпитер</h3>
+            <h3>4.Сатурн </h3>
+            <input type="text" placeholder="Ответ цифрами от 1 до 4" name="vopros10"class="text-button">
+            <h3></h3>
+            <input value="Завершить тест1" type="submit" id="submit"class="text-button">
+            
+        </form>
+          
+          </form>
+        
+        </div>
+      </div>
+  </section>
+
+  <footer class="mt-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>PingvinProgram</p>
+        </div>
+        <div class="col-lg-4 col-md-12 footer-text text-center">
+          <p>Галактика<br>Звёзды<br>Любовь</p>
+        </div>
+        <div class="col-lg-4 col-md-12 media-links">
+          <img style="width: 40px; margin-inline: 1em;" src="source/files/yt.png" alt="...">
+          <img style="width: 40px; margin-inline: 1em;" src="source/files/tg.png" alt="...">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
